@@ -42,4 +42,4 @@ El proyecto se compone principalmente de:
 
 - **JavaScript**  
 - **HTML5**  
-- **CSS3** (opcional para estilos)
+- **CSS3**
