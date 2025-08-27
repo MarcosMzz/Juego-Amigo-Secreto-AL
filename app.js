@@ -42,16 +42,16 @@ function esNuloOESpacioEnBlanco(amigo) {
 }
 
 function sortearAmigo(){
-    let numeroAmigoSorteado = Math.floor(Math.random()*listaNombres.length);
+  let numeroAmigoSorteado = Math.floor(Math.random()*listaNombres.length);
     
-    let amigoSorteado = listaNombres[numeroAmigoSorteado];
-    //asignarTextoElemento("resultado", "Felicidades, " + amigoSorteado + ", fuiste el amigo sorteado");
-    let lista = document.getElementById("resultado");
+  let amigoSorteado = listaNombres[numeroAmigoSorteado];
+    
+  let lista = document.getElementById("resultado");
   asignarTextoElemento("resultado", "");
-    let nuevoElementoLista = document.createElement("li");
-    nuevoElementoLista.textContent = amigoSorteado;
-    lista.appendChild(nuevoElementoLista);
-    return;
+  let nuevoElementoLista = document.createElement("li");
+  nuevoElementoLista.textContent = "Felicidades, " + amigoSorteado + ", fuiste el amigo sorteado";
+  lista.appendChild(nuevoElementoLista);
+  return;
 
 }
 
@@ -77,7 +77,7 @@ function limpiarCaja() {
     const inputField = document.getElementById('amigo');
 
     inputField.addEventListener('input', function(event) {
-      // Replace any character that is NOT a letter (a-z, A-Z) with an empty string
+      // Reemplaza cualquier caracter que no sea una letra con un espacio en blanco
       event.target.value = event.target.value.replace(/[^a-zA-Z]/g, '');
     });
   });
