@@ -160,3 +160,12 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+
+#listaAmigos{
+    display: flex;
+    /* Optional: control alignment */
+    /*justify-content: flex-start; /* or center, flex-end, space-between, etc. */
+    /*align-items: flex-start;    /* or center, flex-end, stretch, etc. */
+    flex-direction: row;
+    gap: 10px;
+}
