@@ -1,8 +1,5 @@
-![Release](https://img.shields.io/badge/release-Agosto%202025-blue)  
-![Estado](https://img.shields.io/badge/estado-Completado-brightgreen)  
-![JavaScript](https://img.shields.io/badge/code-JavaScript-yellow?logo=javascript) 
-![HTML](https://img.shields.io/badge/markup-HTML-orange?logo=html5) 
-![CSS](https://img.shields.io/badge/style-CSS-blue?logo=css3)
+![Release](https://img.shields.io/badge/release-Agosto%202025-blue)  ![Estado](https://img.shields.io/badge/estado-Completado-brightgreen)  ![JavaScript](https://img.shields.io/badge/code-JavaScript-yellow?logo=javascript) 
+![HTML](https://img.shields.io/badge/markup-HTML-orange?logo=html5) ![CSS](https://img.shields.io/badge/style-CSS-blue?logo=css3)
 
 # 🎉 Sorteo de Amigos
 
